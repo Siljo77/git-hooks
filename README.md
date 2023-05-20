@@ -2,15 +2,15 @@
 
 1. Prerequisites
 
-Before proceeding with the installation, ensure that you have the following prerequisites installed on your system:
+    - Before proceeding with the installation, ensure that you have the following prerequisites installed on your system:
 
-Python (version 3.6 or later)
-Git
+    - Python (version 3.6 or later)
+    - Git
 
 
 2. Installation
 
-To install pre-commit, follow these steps:
+    To install pre-commit, follow these steps:
 
     1. Open a terminal or command prompt.
 
@@ -29,7 +29,7 @@ To install pre-commit, follow these steps:
 
 3. Configuration
 
-Once pre-commit is installed, you need to configure it for your project. The configuration is typically stored in a file named .pre-commit-config.yaml at the root of your project's repository.
+    Once pre-commit is installed, you need to configure it for your project. The configuration is typically stored in a file named .pre-commit-config.yaml at the root of your project's repository.
 
     1. Create a .pre-commit-config.yaml file in the root of your repository.
     2. Open the file in a text editor and define your hooks. Hooks are scripts or commands that pre-commit runs on your files. You can find a list of available hooks in the pre-commit repository.
@@ -57,7 +57,7 @@ Once pre-commit is installed, you need to configure it for your project. The con
 
 4. Usage
 
-With pre-commit configured, you can now run it to check your files before each commit.
+    With pre-commit configured, you can now run it to check your files before each commit.
 
     1. Open a terminal or command prompt in the root of your project's repository.
 
