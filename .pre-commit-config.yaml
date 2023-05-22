@@ -5,13 +5,20 @@ repos:
       - id: trailing-whitespace
       - id: check-yaml
       - id: end-of-file-fixer
+      - id: check-merge-conflict
 
   - repo: https://github.com/psf/black
     rev: 23.3.0
     hooks:
       - id: black
+        files: \.py$
+        args:
+          - --line-length=79
 
-  - repo: https://github.com/PyCQA/isort
-    rev: 5.12.0
+  - repo: local
     hooks:
-      - id: isort
+      - id: pylint
+        name: pylint
+        entry: hooks/bin/pylint
+        language: python
+        types: [python]

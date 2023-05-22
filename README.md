@@ -72,3 +72,8 @@
     4. Once you've resolved the issues, run the pre-commit run --all-files command again to ensure all the hooks pass successfully.
 
     5. Finally, you can now commit your changes using your regular Git workflow. The pre-commit hooks will automatically run before each commit to ensure the code meets the defined standards.
+
+
+5. Updating hooks automatically ¶
+
+    You can update your hooks to the latest version automatically by running pre-commit autoupdate. By default, this will bring the hooks to the latest tag on the default branch
